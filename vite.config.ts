@@ -9,6 +9,7 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 4000,
     strictPort: true,
+    /*Using hmr for solve gitpod + vite page auto refresh*/
     /*hmr: {
         port: 443,
     }*/
